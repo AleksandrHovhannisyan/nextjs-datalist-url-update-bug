@@ -1,0 +1,9 @@
+{
+  "name": "chrome-datalist-url-change-bug",
+  "scripts": {
+    "serve": "npx serve"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
