@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!formRef.current) return;
-    const formData = new FormData(form);
+    const formData = new FormData(formRef.current);
     const urlParams = new URLSearchParams(formData);
     const newUrl = `?${urlParams}`;
     router.push({ pathname: "", query: urlParams }, newUrl, { shallow: true });
